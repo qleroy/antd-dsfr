@@ -6,6 +6,14 @@
 
 [Documentation Apache Superset](https://superset.apache.org/docs/6.0.0/configuration/theming/#managing-themes-via-ui)
 
+```python
+FEATURE_FLAGS = {
+  "ENABLE_UI_THEME_ADMINISTRATION": True
+}
+```
+
+https://github.com/apache/superset/blob/cbb80f046279b1a58b745f3a91d0b1f1b29292a3/superset/config.py#L916
+
 ```json
 {
   "token": {
